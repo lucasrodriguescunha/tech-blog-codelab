@@ -6,10 +6,12 @@ export default function Header() {
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
-                <h1 className={styles.headerTitle}>Encontre os melhores artigos
-                    de programação em um só lugar</h1>
-                <p className={styles.headerSubtitle}>Explore o topo da programação em um só lugar!
-                    Seu destino único para dicas e tendências atuais.</p>
+                <h1 className={styles.headerTitle}>
+                    Encontre os <span>melhores artigos</span> de programação em um só lugar
+                </h1>
+                <p className={styles.headerSubtitle}>
+                    Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.
+                </p>
                 <button className={styles.headerButton}>Buscar artigos</button>
             </div>
             <div className={styles.imageWrapper}>
