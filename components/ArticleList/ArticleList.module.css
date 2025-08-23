@@ -12,7 +12,7 @@
     .articleListContainer {
         grid-template-columns: repeat(2, 1fr);
 
-        margin: 3.5rem 2rem;
+        margin: 3.5rem auto;
     }
 }
 
@@ -20,7 +20,7 @@
     .articleListContainer {
         grid-template-columns: repeat(1, 1fr);
 
-        margin: 2.5rem 1.5rem;
+        margin: 2.5rem auto;
     }
 }
 
