@@ -1,0 +1,16 @@
+.articleListContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin: 3.125rem 15rem 3.125rem 22rem;
+    font-family: var(--font-geist-roboto);
+}
+
+.articleListTitle {
+    font-weight: 600;
+    font-size: var(--font-size-3xl);
+    color: var(--color-dark-10);
+    margin: 5rem 15rem 7rem 22rem;
+}
+
+
