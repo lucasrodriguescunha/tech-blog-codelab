@@ -1,18 +1,18 @@
 import Image from 'next/image';
 
-import styles from './Header.module.css';
+import styles from './HeroBanner.module.css';
 
-export default function Header() {
+export default function HeroBanner() {
     return (
-        <header className={styles.headerContainer}>
-            <div className={styles.headerContent}>
-                <h1 className={styles.headerTitle}>
+        <header className={styles.heroBannerContainer}>
+            <div className={styles.heroBannerContent}>
+                <h1 className={styles.heroBannerTitle}>
                     Encontre os <span>melhores artigos</span> de programação em um só lugar
                 </h1>
-                <p className={styles.headerSubtitle}>
+                <p className={styles.heroBannerSubtitle}>
                     Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.
                 </p>
-                <button className={styles.headerButton}>Buscar artigos</button>
+                <button className={styles.heroBannerButton}>Buscar artigos</button>
             </div>
             <div className={styles.imageWrapper}>
                 <Image
@@ -20,7 +20,7 @@ export default function Header() {
                     alt='Imagem de uma pessoa segurando um notebook'
                     width={400}
                     height={460}
-                    className={styles.headerImage}
+                    className={styles.heroBannerImage}
                 />
             </div>
         </header>
