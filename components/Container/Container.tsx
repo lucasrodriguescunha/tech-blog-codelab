@@ -1,4 +1,4 @@
-import Header from '@/components/Header/Header';
+import Header from '@/components/HeroBanner/HeroBanner';
 
 import styles from './Container.module.css';
 
