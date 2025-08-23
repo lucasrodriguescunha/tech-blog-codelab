@@ -1,0 +1,10 @@
+.sectionTitleContainer {
+    margin: 5rem 15rem 7rem 22rem;
+    font-family: var(--font-geist-roboto);
+}
+
+.sectionTitle {
+    font-weight: 600;
+    font-size: var(--font-size-3xl);
+    color: var(--color-dark-10);
+}
