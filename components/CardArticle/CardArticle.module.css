@@ -1,0 +1,29 @@
+.cardArticleContainer {
+
+}
+
+.cardArticleContent {
+    width: min-content;
+    border: 2px solid var(--color-dark-40);
+    border-radius: 0.125rem;
+}
+
+.cardArticleSection {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem 1.5rem;
+    gap: 1rem;
+}
+
+.cardArticleTitle {
+    font-weight: 600;
+    font-size: var(--font-size-xl);
+    color: var(--color-dark-10);
+}
+
+.cardArticleDescription {
+    font-weight: 400;
+    font-size: var(--font-size-lg);
+    color: var(--color-dark-10);
+}
