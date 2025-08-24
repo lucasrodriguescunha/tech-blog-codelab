@@ -1,22 +1,22 @@
 .cardArticleContainer {
-
+    height: 100%;
 }
 
 .cardArticleContent {
     display: flex;
     flex-direction: column;
-
-    width: fit-content;
+    height: 100%;
 }
 
 .articleImage {
     border-radius: 0.5rem 0.5rem 0 0;
+    flex-shrink: 0;
 }
 
 .cardArticleSection {
     display: flex;
     flex-direction: column;
-
+    flex: 1;
     padding: 2rem 1.5rem;
     gap: 1rem;
     border: 3px solid var(--color-dark-40);
@@ -68,7 +68,6 @@
     /*    width: 327px;*/
     /*    height: 175px;*/
     /*}*/
-
     .cardArticleSection {
         padding: 1.5rem 1.125rem;
     }
