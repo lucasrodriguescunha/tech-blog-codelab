@@ -1,5 +1,6 @@
 .sectionTitleContainer {
-    margin: 5rem 15rem 7rem 22rem;
+    max-width: max-content;
+    margin: 3.125rem 15rem 3.125rem 22rem;
     font-family: var(--font-geist-roboto);
 }
 
@@ -15,16 +16,16 @@
     }
 
     .sectionTitle {
-        font-size: var(--font-size-2xl);
+        font-size: var(--font-size-3xl);
     }
 }
 
 @media (max-width: 576px) {
     .sectionTitleContainer {
-        margin: 4rem 2.3rem 0 2.3rem
+        margin: 4rem 2rem 0 3.3rem
     }
 
     .sectionTitle {
-        font-size: var(--font-size-2xl);
+        font-size: var(--font-size-3xl);
     }
 }
