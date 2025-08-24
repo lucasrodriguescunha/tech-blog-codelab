@@ -7,8 +7,7 @@
 }
 
 .contactFormContent {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem 5rem;
     font-family: var(--font-geist-roboto);
 }
 
@@ -29,7 +28,6 @@
     text-align: center;
     padding-bottom: 3rem;
     font-family: var(--font-geist-roboto);
-
 }
 
 .contactFormInputField {
@@ -80,4 +78,51 @@
     width: 100%;
     cursor: pointer;
     font-family: var(--font-geist-roboto);
+}
+
+@media (max-width: 768px) {
+    .contactFormContent {
+        margin: 5rem 5rem;
+    }
+
+    .contactFormFieldGroup {
+        width: 705px;
+    }
+
+    .contactFormTitle {
+        text-align: left;
+        font-size: var(--font-size-3xl);
+    }
+
+    .contactFormInputField {
+        padding: 1rem;
+    }
+
+    .contactFormTextareaField {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contactFormContent {
+        margin: 4rem 4rem;
+    }
+
+    .contactFormFieldGroup {
+        width: 326px;
+    }
+
+    .contactFormTitle {
+        text-align: left;
+        font-size: var(--font-size-3xl);
+    }
+
+    .contactFormInputField {
+        height: 48px;
+        padding: 1rem;
+    }
+
+    .contactFormTextareaField {
+        padding: 1rem;
+    }
 }
