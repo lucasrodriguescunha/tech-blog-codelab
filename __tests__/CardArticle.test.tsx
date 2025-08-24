@@ -9,7 +9,7 @@ describe('CardArticle Component', () => {
         description: 'Uma das mais populares vertentes da tecnologia da informação, a área de...'
     };
 
-    test('Renderiza o CardArticle com as propriedades corretas', () => {
+    test('renderiza o CardArticle com as propriedades corretas', () => {
         render(<CardArticle {...mockProps} />);
 
         expect(screen.getByText(mockProps.title)).toBeInTheDocument();
