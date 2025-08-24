@@ -1,0 +1,8 @@
+import {render} from '@testing-library/react';
+import Container from '@/components/Container/Container';
+
+describe('Container Component', () => {
+    it('Renderiza o Container', () => {
+        render(<Container/>);
+    });
+});
