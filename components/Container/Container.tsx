@@ -1,5 +1,6 @@
 import HeroBanner from '@/components/HeroBanner/HeroBanner';
 import ArticleList from '@/components/ArticleList/ArticleList';
+import ContactForm from '@/components/ContactForm/ContactForm';
 
 import styles from './Container.module.css';
 
@@ -8,6 +9,7 @@ export default function Container() {
         <div className={styles.container}>
             <HeroBanner/>
             <ArticleList/>
+            <ContactForm/>
         </div>
     );
 }
