@@ -7,8 +7,10 @@
     flex-direction: column;
 
     width: fit-content;
-    border: 3px solid var(--color-dark-40);
-    border-radius: 0.25rem 0 0.25rem 0;
+}
+
+.articleImage {
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .cardArticleSection {
@@ -17,6 +19,9 @@
 
     padding: 2rem 1.5rem;
     gap: 1rem;
+    border: 3px solid var(--color-dark-40);
+    border-top: none;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .cardArticleTitle {
@@ -59,10 +64,10 @@
         width: fit-content;
     }
 
-    .articleImage {
-        width: 327px;
-        height: 175px;
-    }
+    /*.articleImage {*/
+    /*    width: 327px;*/
+    /*    height: 175px;*/
+    /*}*/
 
     .cardArticleSection {
         padding: 1.5rem 1.125rem;
