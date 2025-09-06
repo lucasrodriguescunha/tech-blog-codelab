@@ -1,5 +1,7 @@
 # Tech Blog CodeLab
-Um projeto de blog técnico desenvolvido com Next.js para aprendizado e experimentação com tecnologias modernas de desenvolvimento web.
+
+Um projeto de blog técnico desenvolvido com Next.js para aprendizado e experimentação com tecnologias modernas de
+desenvolvimento web.
 
 ## 🚀 Tecnologias
 
@@ -42,9 +44,12 @@ npm run dev              # Servidor de desenvolvimento (com Turbopack)
 npm run build            # Build para produção  
 npm start                # Servidor de produção
 npm test                 # Executar testes unitários
+npm run test:watch       # Testes em modo watch
+npm run test:coverage    # Testes com cobertura
 npm run lint             # Verificar código com ESLint
 npm run cypress:open     # Abrir Cypress interativo
-
+npm run cypress:run      # Executar testes E2E em modo headless
+npm run e2e              # Executar testes E2E completos
 ```
 
 ## 📁 Estrutura do projeto
@@ -74,6 +79,7 @@ npm run cypress:open     # Abrir Cypress interativo
 ## 🧪 Testes
 
 ### Testes Unitários
+
 Os testes unitários estão localizados na pasta `__tests__/` e cobrem todos os componentes principais:
 
 - **ArticleList** - Testagem da listagem de artigos
@@ -84,6 +90,7 @@ Os testes unitários estão localizados na pasta `__tests__/` e cobrem todos os 
 - **SectionTitle** - Testagem dos títulos de seção
 
 ### Testes E2E
+
 Os testes end-to-end estão na pasta `cypress/e2e/` e incluem:
 
 - **app.cy.ts** - Testes gerais da aplicação
@@ -101,7 +108,8 @@ Os testes end-to-end estão na pasta `cypress/e2e/` e incluem:
 
 ## 📈 Cobertura de Testes
 
-O projeto mantém uma cobertura de testes abrangente, com relatórios disponíveis na pasta `coverage/` após executar `npm run test:coverage`.
+O projeto mantém uma cobertura de testes abrangente, com relatórios disponíveis na pasta `coverage/` após executar
+`npm run test:coverage`.
 
 ## 🚀 Deploy
 
